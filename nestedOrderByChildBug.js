@@ -1,0 +1,1 @@
+The issue arises when using Firebase's Realtime Database with a large dataset and complex queries.  Specifically, when a query involves multiple nested orderByChild calls, the client-side filtering becomes inefficient and causes performance problems. The application may freeze, crash, or become extremely slow.
